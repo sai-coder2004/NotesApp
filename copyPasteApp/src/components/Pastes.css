@@ -1,0 +1,66 @@
+
+.pastes-div{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: center;
+}
+#input-pastes{
+     width: 60%;
+  height: 40px;
+   background-color: rgba(0,0,0,0.5);
+  border: 2px solid whitesmoke;
+  border-radius: 10px;
+  color: white;
+  padding: 8px;
+}
+#btn-pastes{
+     height: 40px;
+  width: 20%;
+  background: green;
+  color: white;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 0 20px;
+} 
+.card{
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.each-card{
+    border: 2px solid white;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+.modify-btns{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#input-tag-btn{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.m-btn{
+    width: 15%;
+    background: green;
+    color: white;
+    border-radius: 10px;
+    padding: 0 20px;
+    text-decoration: none;
+}
+#navlink{
+  text-decoration: none;
+  color:white;
+}
